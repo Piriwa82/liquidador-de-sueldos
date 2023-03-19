@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquidador de sueldos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="titulo">Liquidador de Sueldos</h1>
+    <h2 id="subtitulo">Por favor, introduzca los valores a liquidar:</h2>
+
+    <input type="number" placeholder="Basico" id="input-estilo" class="basico">
+
+    <input type="number" placeholder="Inasistencias" id="input-estilo" class="inasistencias">
+
+    <input type="number" placeholder="Antiguedad" id="input-estilo" class="antiguedad">
+
+    <input type="number" placeholder="Horas al 100" id="input-estilo" class="horas-al-100">
+
+    <input type="number" placeholder="Horas al 50" id="input-estilo" class="horas-al-50">
+
+    <select id="detalle-estilo" class="detalle">
+        <option value="Resumido">Resumido</option>
+        <option value="Detallado">Detallado</option>
+      </select>
+
+    <div id="contenedor-submit"><input type="submit" onclick="obtenerValores()"  id="enviar" value="Enviar"></div>
+
+
+    <div id="valoresDetallados"></div>
+    <div id="basico"></div>
+    <div id="zona"></div>
+    <div id="basicoConformado"></div>
+    <div id="antiguedad"></div>
+    <div id="hs100"></div>
+    <div id="hs50"></div>
+    <div id="presentismo"></div>
+    <div id="sueldoBruto"></div>
+    <div id="jubilacion"></div>
+    <div id="pami"></div>
+    <div id="os"></div>
+    <div id="cec"></div>
+    <div id="faecys"></div>
+    <div id="neto"></div>
+</body>
+</html>
